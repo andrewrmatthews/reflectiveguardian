@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="gmaps.css">
+  <title>Simple Map</title>
+</head>
+
+<body>
+<div id="map">
+<!--  empty div that will hold the map -->
+</div>
+
+
+
+<script>
+var map;
+function initMap() {
+map = new google.maps.Map(document.getElementById('map'), 
+{
+center: {lat: -23.397, lng: 15.644},
+zoom: 8
+});
+}
+</script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDCej4cI9tx-oIwlIouW9IoAGWftMu3eo&callback=initMap" async defer> 
+</script>
+
+<script src="andew.js">
+</script>
+
+</body>
+</html>
