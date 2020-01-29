@@ -1,5 +1,5 @@
 // this is a comment
 
-function doNothing() {
-	alert("nothing done");
+function doSomething() {
+	alert("something done");
 }

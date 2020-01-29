@@ -2,33 +2,12 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="gmaps.css">
+  <script src="andew.js"></script>
   <title>Simple Map</title>
 </head>
 
 <body>
-<div id="map">
-<!--  empty div that will hold the map -->
-</div>
-
-
-
-<script>
-var map;
-function initMap() {
-map = new google.maps.Map(document.getElementById('map'), 
-{
-center: {lat: -23.397, lng: 15.644},
-zoom: 8
-});
-}
-</script>
-
-
-<script src="https://maps.googleapis.com/maps/api/js?key=xxxxxx&callback=initMap" async defer> 
-</script>
-
-<script src="andew.js">
-</script>
+<button onClick="doSomething()">Test</button>
 
 </body>
 </html>
