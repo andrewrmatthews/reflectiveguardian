@@ -1,0 +1,109 @@
+body {
+background-image: url("http://images.all-free-download.com/images/graphicthumb/dark_ornate_floral_seamless_pattern_vector_542457.jpg");
+}
+
+#container {			
+height: 1700px;
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+background-color: black;
+border-radius: 0px;
+} 
+
+#header {			/*Header at top of the page*/
+height: 200px;
+float: left;
+clear: both;
+margin-left: 15%;
+width: 70%;
+background-color: black;
+border: 5px solid white;
+}
+
+h1 { 
+font-family: georgia;
+color: white;
+padding: 15px;
+}
+
+.submenus {     /*Class for all menus*/
+height: 50px;
+float: left;
+margin-left: 7%;
+width: 7%;
+background-color: white;
+text-align: center;
+border: 3px solid gray;
+}
+
+.menulinks:link,.menulinks:visited {		/*For links in the menus*/
+color: black;
+background-color: white;
+font-family: verdana;
+}
+
+.menulinks:hover,.menulinks:active,.submenus:hover,.submenus:visited {
+color: white;
+background-color: black;
+text-decoration: none;
+}
+
+#textarea {
+height: 400px;
+float: left;
+clear: both;
+margin-left: 15%;
+width: 70%;
+background-color: gray;
+color: black;
+border: 5px solid white;
+text-align: center;
+font-family: verdana;
+padding: 1px;
+}
+
+.contentarea {
+height: 1050px;
+float: left;
+clear: both;
+margin-left: 15%;
+width: 70%;
+background-color: green;
+border: 5px solid gray;
+text-align: center;
+}
+
+.images {
+width: 300px;
+height: 300px;
+}
+
+#summary {
+height: 400px;
+float: left;
+clear: both;
+margin-left: 15%;
+width: 70%;
+background-color: white;
+color: black;
+border: 5px solid black;
+text-align: left;
+font-family: verdana;
+padding: 10px;
+}
+
+#audio {
+margin-left: 40%;
+}
+
+#musicHeader {
+height: 40px;
+float: left;
+clear: both;
+margin-left: 15%;
+width: 70%;
+background-color: black;
+border: 5px solid white;
+text-align: center;
+}
