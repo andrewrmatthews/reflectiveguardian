@@ -22,5 +22,6 @@ padding: 30px;
 text-align: center;
 }
 #chatbox {
-
+background-color: gray;
+border-radius: 10px;
 }
