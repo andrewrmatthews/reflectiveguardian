@@ -2,6 +2,8 @@
 /*a box that centers your content in the parent object */
 #container {
 background-color: gray;
+float: left;
+clear: both;
 height: 100px;
 width: 250px;
 margin: 20px;
