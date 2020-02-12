@@ -1,6 +1,6 @@
 
 /*a box that centers your content in the parent object */
-.fpbox {
+#container {
 height: 50px;
 float: left;
 clear: both;
@@ -26,4 +26,6 @@ margin-left: 10%;
 border: 3px solid black;
 }
 
- 
+#chatbox {
+
+}
