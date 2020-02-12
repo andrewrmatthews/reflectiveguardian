@@ -1,5 +1,5 @@
 // this is a comment
 
-function doSomething() {
+function send() {
 	alert("something done");
 }
