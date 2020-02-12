@@ -5,37 +5,33 @@ background-color: gray;
 
 float: left;
 
-height: 100px;
+height: 500px;
 width: 40%;
 
 margin-top: 20px;
 margin-left: 30%;
 margin-right: 30%;
 
-border: 50px;
-border-color: purple;
-border-radius: 10px;
+border: 7.5px solid black;
+border-radius: 20px;
 
 padding: 30px;
 
 text-align: center;
 }
+
 #chatbox {
 background-color: white;
 
 float: left;
+clear: both;
 
-height: 500px;
-width: 70%;
+height: 200px;
+width: 75%;
 
-margin-top: 20px;
-margin-left: 10%;
-margin-right: 10%;
-margin-bottom: 20px;
-
-border: 50px;
-border-color: black;
-border-radius: 10px;
+margin: 5%;
+border: 7.5px solid black;
+border-radius: 20px;
 
 padding: 30px;
 
