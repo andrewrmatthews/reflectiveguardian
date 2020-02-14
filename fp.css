@@ -20,7 +20,6 @@ text-align: center;
 #chatbox {
 background-color: white;
 
-clear: both;
 
 height: 90%;
 width: 94%;
@@ -34,18 +33,27 @@ padding: 20px;
 text-align: center;
 }
 
-#form {
-background-color: gray;
-
+#i {
 float: left;
-clear: both;
-
-margin: auto;
-cursor: pointer;
-
-border-radius: 20px;
+width: 94%;
+border-radius: 5px;
+text-align: center;
 }
 
-#i {
-text-align: center;
+#sendButton {
+cursor: pointer;
+background-color: lightblue;
+border-radius: 5px;
+float: left;
+}
+
+#sendButton:hover {
+cursor: pointer;
+background-color: cornflowerblue;
+}
+
+#form {
+width: 100%;
+padding-left: 30px;
+padding-right: 50px;
 }
