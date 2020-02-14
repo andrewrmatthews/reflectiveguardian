@@ -1,4 +1,3 @@
-
 /*a box that centers your content in the parent object */
 #container {
 background-color: gray;
@@ -8,9 +7,10 @@ float: left;
 height: 650px;
 width: 40%;
 
-margin-top: 20px;
+/*margin-top: 20px;
 margin-left: 30%;
 margin-right: 30%;
+*/
 
 border: 7.5px solid black;
 border-radius: 20px;
