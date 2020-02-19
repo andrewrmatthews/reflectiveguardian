@@ -1,5 +1,4 @@
-// this is a comment
 function send(){
-	var somgo = document.getElementById("i");
-	alert(somgo);
+	var somgo = document.getElementById('i').value;
+	document.getElementById('chatbox').innerHTML = somgo;
 }
